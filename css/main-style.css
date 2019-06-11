@@ -59,14 +59,31 @@ h4,
 h5,
 h6 {
     margin: 0px;
+    color: #110955;
 }
 
 p {
     font-family: 'Work Sans';
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1;
     color: #666666;
     margin: 0px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+.no-padding {
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .navbar {
@@ -196,30 +213,109 @@ p {
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 15px;
     background-color: #FCFCFC;
 }
 
-.selection-wrapper {
-    width: 350px;
-    height: 500px;
-    margin: 0 15px;
-    background-color: #FFFFFF;
+.selection {
+    width: 100%;
+    height: 150px;
+    margin: 15px 0;
     border-radius: 10px;
     overflow: hidden;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    /* cursor: pointer; */
+}
+
+.selection:hover,
+.selection:focus {
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 0px 20px 2px rgba(0, 0, 0, 0.1);
     -o-box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.selection h1 {
+    text-align: right;
+    position: relative;
+    top: 40%;
+    right: 5%;
+    color: #ffffff;
+}
+
+.selection:hover h1,
+.selection:focus h1 {
+    color: #110955;
+}
+
+#selection-1 {
+    background-image: url(../img/dashboard/dashboard-diamond-blue-mobile.png);
+}
+
+#selection-1:hover {
+    background-image: url(../img/dashboard/dashboard-diamond-white-mobile.png);
+}
+
+#selection-2 {
+    background-image: url(../img/dashboard/dashboard-search-blue-mobile.png);
+}
+
+#selection-2:hover {
+    background-image: url(../img/dashboard/dashboard-search-white-mobile.png);
+}
+
+#selection-3 {
+    background-image: url(../img/dashboard/dashboard-user-blue-mobile.png);
+}
+
+#selection-3:hover {
+    background-image: url(../img/dashboard/dashboard-user-white-mobile.png);
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .selection {
+        height: 500px;
+    }
+
+    .selection h1 {
+        text-align: center;
+        right: 0;
+        top: 85%;
+    }
+
+    #selection-1 {
+        background-image: url(../img/dashboard/dashboard-diamond-blue.png);
+    }
+
+    #selection-1:hover {
+        background-image: url(../img/dashboard/dashboard-diamond-white.png);
+    }
+
+    #selection-2 {
+        background-image: url(../img/dashboard/dashboard-search-blue.png);
+    }
+
+    #selection-2:hover {
+        background-image: url(../img/dashboard/dashboard-search-white.png);
+    }
+
+    #selection-3 {
+        background-image: url(../img/dashboard/dashboard-user-blue.png);
+    }
+
+    #selection-3:hover {
+        background-image: url(../img/dashboard/dashboard-user-white.png);
+    }
 }

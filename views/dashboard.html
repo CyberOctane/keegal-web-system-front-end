@@ -45,32 +45,55 @@
 </head>
 
 <body>
+<!-- Navbar -->
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../img/keegal-logo-blue.svg" width="150" height="40" class="d-inline-block align-top" alt="">
+            </a>
+            <form class="form-inline">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-user"></i> Log
+                    Out</button>
+            </form>
+        </div>
+    </nav>
+<!-- Navbar End -->
 
     <div class="limiter">
-        <nav class="navbar fixed-top navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="../img/keegal-logo-blue.svg" width="150" height="40" class="d-inline-block align-top"
-                        alt="">
-                </a>
-                <form class="form-inline">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-user"></i> Log
-                        Out</button>
-                </form>
-            </div>
-        </nav>
         <div class="dashboard-container">
-            <div class="selection-wrapper">
-
-            </div>
-            <div class="selection-wrapper">
-
-            </div>
-            <div class="selection-wrapper">
-
+            <h1 class="h2 mb-4 text-left w-sans-regular container">Welcome !</h1>
+            <div class="container">
+                <div class="row">
+                    <a class="col-lg-4 col-md-12" href="#">
+                        <div id="selection-1" class="selection">
+                            <h1 class="h2 w-sans-light">Add a Gem</h1>
+                        </div>
+                    </a>
+                    <a class="col-lg-4 col-md-12" href="#">
+                        <div id="selection-2" class="selection">
+                            <h1 class="h2 w-sans-light">Search</h1>
+                        </div>
+                    </a>
+                    <a class="col-lg-4 col-md-12" href="#">
+                        <div id="selection-3" class="selection">
+                            <h1 class="h2 w-sans-light">User Management</h1>
+                        </div>
+                    </a>
                 </div>
+            </div>
         </div>
     </div>
+
+<!-- Footer -->
+    <footer class="page-footer">
+        <p class="footer-copyright text-center pb-1">&copy; 2019-<script>
+                document.write(new Date().getFullYear() + 1);
+            </script> Keegal Gemology and Research Institute</p>
+        <p class="footer-solution text-center pb-3">Solution by
+            <a href="#"> Cyberoctane Interactive</a>
+        </p>
+    </footer>
+<!-- Footer End -->
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -86,6 +109,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
+
+    <!-- Plugin Scripts -->
 
     <!-- Theme Scripts -->
     <script src="../js/main-script.js"></script>
