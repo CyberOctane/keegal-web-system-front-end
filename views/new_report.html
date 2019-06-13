@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Page Title -->
+    <title>Keegal Web System | View</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+
+    <!-- Bootstrap v4.1.3 Core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <!-- <link rel="stylesheet" href="../vendor/font-awesome 5/css/font-awesome.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+
+    <!-- Google Fonts API -->
+    <!-- Work Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,300,400,600,700&display=swap" rel="stylesheet">
+
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <!-- Theme CSS -->
+    <link href="../css/main-style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../img/keegal-logo-blue.svg" width="150" height="40" class="d-inline-block align-top" alt="">
+            </a>
+            <form class="form-inline">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-user"></i> Log
+                    Out</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <div class="limiter">
+        <div class="view-container">
+            <div class="container">
+                <div class="container search-home-container">
+                    <div class="row">
+                        <div class="col-12 home mb-2">
+                            <a id="home-btn" class="btn btn-outline-success my-2 my-sm-0 float-right"
+                                role="button"  href="dashboard.html"><i class="fas fa-home"></i> Home</a>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="h1 mb-2 text-left w-sans-regular container">New Report</h1>
+                <div class="container px-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <hr>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">
+                                        <h6 class="w-sans-semi-bold">Date:</h6>
+                                    </label>
+                                    <div class="col-sm-8">
+                                        <input type="date" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">
+                                        <h6 class="w-sans-semi-bold">Certificate ID:</h6>
+                                    </label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" placeholder="207EA561D">
+                                    </div>
+                                </div>
+                            </form>
+                            <hr>
+                            <h1 class="h5 my-4 text-left w-sans-bold">Gemstone Report</h1>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">
+                                        <h6 class="w-sans-semi-bold">Weight:</h6>
+                                    </label>
+                                    <div class="col-sm-8 input-group">
+                                        <input type="text" class="form-control">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">ct</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">
+                                        <h6 class="w-sans-semi-bold">Measurement:</h6>
+                                    </label>
+                                    <div class="col-sm-8 input-group">
+                                        <input type="text" class="form-control">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">mm</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">
+                                        <h6 class="w-sans-semi-bold">Gem Cut:</h6>
+                                    </label>
+                                    <div class="col-sm-8">
+                                        <select class="form-control" id="">
+                                            <option>Square Antique</option>
+                                            <option>Brilliant Cut</option>
+                                            <option>Step Cut</option>
+                                            <option>Rose Cut</option>
+                                            <option>Ceylon Cut</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">
+                                        <h6 class="w-sans-semi-bold">Gem Shape:</h6>
+                                    </label>
+                                    <div class="col-sm-8">
+                                        <select class="form-control" id="">
+                                            <option>Briolette</option>
+                                            <option>Cabachon</option>
+                                            <option>Cushion</option>
+                                            <option>Emerald</option>
+                                            <option>Heart</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">
+                                        <h6 class="w-sans-semi-bold">Color:</h6>
+                                    </label>
+                                    <div class="col-sm-8">
+                                        <select class="form-control" id="">
+                                            <option>Orange</option>
+                                            <option>Brown</option>
+                                            <option>Blue – green</option>
+                                            <option>Green</option>
+                                            <option>Red</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <hr>
+                            <h1 class="h5 my-4 text-left w-sans-bold">Conclusion</h1>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">
+                                        <h6 class="w-sans-semi-bold">Variety:</h6>
+                                    </label>
+                                    <div class="col-sm-8">
+                                        <select class="form-control" id="">
+                                            <option>Natural Orangy-Pinkish Sapphire</option>
+                                            <option>Cabachon</option>
+                                            <option>Cushion</option>
+                                            <option>Emerald</option>
+                                            <option>Heart</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">
+                                        <h6 class="w-sans-semi-bold">Species:</h6>
+                                    </label>
+                                    <div class="col-sm-8">
+                                        <select class="form-control" id="">
+                                            <option>Natural Corundum</option>
+                                            <option>Cabachon</option>
+                                            <option>Cushion</option>
+                                            <option>Emerald</option>
+                                            <option>Heart</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                            <hr>
+                            <h1 class="h5 my-4 text-left w-sans-bold">Treatment</h1>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">
+                                        <h6 class="w-sans-semi-bold">Comment:</h6>
+                                    </label>
+                                    <div class="col-sm-8">
+                                        <textarea class="form-control" rows="4"></textarea>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="form-group row">
+                                    <label class="col-sm-4 col-form-label">
+                                        <h6 class="w-sans-semi-bold">Image:</h6>
+                                    </label>
+                                    <div class="col-sm-8">
+                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="alert alert-danger col-12 mt-3 alert-dismissible fade show" role="alert">
+                                A simple danger alert—check it out!
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row my-5 pb-5">
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-success mx-2"><i class="fas fa-save"></i>
+                                    Save</button>
+                                <button type="submit" class="btn btn-primary mx-2"><i class="fas fa-eye"></i>
+                                    View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer pt-4">
+        <p class="footer-copyright text-center pb-1">&copy; 2019-<script>
+                document.write(new Date().getFullYear() + 1);
+            </script> Keegal Gemology and Research Institute</p>
+        <p class="footer-solution text-center pb-3">Solution by
+            <a href="#"> Cyberoctane Interactive</a>
+        </p>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+    <!-- Plugin Scripts -->
+
+    <!-- Theme Scripts -->
+    <script src="../js/main-script.js"></script>
+
+</body>
+
+</html>
